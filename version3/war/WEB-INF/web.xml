@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Registrar</servlet-name>
+		<servlet-class>Redirigir.Registrar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Registrar</servlet-name>
+		<url-pattern>/registrar</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Exito</servlet-name>
+		<servlet-class>Redirigir.Exito</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Exito</servlet-name>
+		<url-pattern>/exito</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>IndexLogin</servlet-name>
+		<servlet-class>Redirigir.IndexLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexLogin</servlet-name>
+		<url-pattern>/indexLogin</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>IndexAgregarCursos</servlet-name>
+		<servlet-class>Redirigir.IndexAgregarCursos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexAgregarCursos</servlet-name>
+		<url-pattern>/indexAgregarCursos</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ExitoCurso</servlet-name>
+		<servlet-class>Redirigir.ExitoCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExitoCurso</servlet-name>
+		<url-pattern>/exitoCurso</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>IndexAgregarAdmin</servlet-name>
+		<servlet-class>Redirigir.IndexAgregarAdmin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexAgregarAdmin</servlet-name>
+		<url-pattern>/indexAgregarAdmin</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ExitoAdministrador</servlet-name>
+		<servlet-class>Redirigir.ExitoAdministrador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExitoAdministrador</servlet-name>
+		<url-pattern>/exitoAdministrador</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>IndexAdmin</servlet-name>
+		<servlet-class>Redirigir.IndexAdmin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexAdmin</servlet-name>
+		<url-pattern>/indexAdmin</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>IndexCerrarSesion</servlet-name>
+		<servlet-class>Redirigir.IndexCerrarSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexCerrarSesion</servlet-name>
+		<url-pattern>/indexCerrarSesion</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ControladorVistaTienda</servlet-name>
+		<servlet-class>Redirigir.ControladorVistaTienda</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControladorVistaTienda</servlet-name>
+		<url-pattern>/controladorVistaTienda</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>IndexAtohm</servlet-name>
+		<servlet-class>Redirigir.IndexAtohm</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexAtohm</servlet-name>
+		<url-pattern>/indexAtohm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>IndexHackerspace</servlet-name>
+		<servlet-class>Redirigir.IndexHackerspace</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexHackerspace</servlet-name>
+		<url-pattern>/indexHackerspace</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>IndexProductos</servlet-name>
+		<servlet-class>Redirigir.IndexProductos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexProductos</servlet-name>
+		<url-pattern>/indexProductos</url-pattern>
+	</servlet-mapping>	
+	
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>Saveuser</servlet-name>
+		<servlet-class>servlets.Saveuser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Saveuser</servlet-name>
+		<url-pattern>/saveuser</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>servlets.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>SaveCursos</servlet-name>
+		<servlet-class>servlets.SaveCursos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveCursos</servlet-name>
+		<url-pattern>/saveCursos</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>VerUsuarios</servlet-name>
+		<servlet-class>servlets.VerUsuarios</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerUsuarios</servlet-name>
+		<url-pattern>/verUsuarios</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>VerCursos</servlet-name>
+		<servlet-class>servlets.VerCursos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerCursos</servlet-name>
+		<url-pattern>/verCursos</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>SaveAdministrador</servlet-name>
+		<servlet-class>servlets.SaveAdministrador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveAdministrador</servlet-name>
+		<url-pattern>/saveAdministrador</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>GetInstructionsFormAthomDatosPersonales</servlet-name>
+		<servlet-class>servlets.GetInstructionsFormAthomDatosPersonales</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetInstructionsFormAthomDatosPersonales</servlet-name>
+		<url-pattern>/getInstructionsFormAthomDatosPersonales</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>GetList</servlet-name>
+		<servlet-class>servlets.GetList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetList</servlet-name>
+		<url-pattern>/getList</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>IndexAtohmstore</servlet-name>
+		<servlet-class>servlets.IndexAtohmstore</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexAtohmstore</servlet-name>
+		<url-pattern>/indexAtohmstore</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ListaProductos</servlet-name>
+		<servlet-class>servlets.ListaProductos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListaProductos</servlet-name>
+		<url-pattern>/listaProductos</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RegistroDatosAtohm</servlet-name>
+		<servlet-class>servlets.RegistroDatosAtohm</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistroDatosAtohm</servlet-name>
+		<url-pattern>/registroDatosAtohm</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Save</servlet-name>
+		<servlet-class>servlets.Save</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Save</servlet-name>
+		<url-pattern>/save</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>IndexUser</servlet-name>
+		<servlet-class>Redirigir.IndexUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexUser</servlet-name>
+		<url-pattern>/indexUser</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>VerCursosHackerscholar</servlet-name>
+		<servlet-class>Redirigir.VerCursosHackerscholar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerCursosHackerscholar</servlet-name>
+		<url-pattern>/verCursosHackerscholar</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Hackerscholar</servlet-name>
+		<servlet-class>Redirigir.Hackerscholar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Hackerscholar</servlet-name>
+		<url-pattern>/hackerscholar</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RegistrarCursos</servlet-name>
+		<servlet-class>Redirigir.RegistrarCursos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarCursos</servlet-name>
+		<url-pattern>/registrarCursos</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ExitoRegCurso</servlet-name>
+		<servlet-class>Redirigir.ExitoRegCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExitoRegCurso</servlet-name>
+		<url-pattern>/exitoRegCurso</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>SaveRegCurso</servlet-name>
+		<servlet-class>servlets.SaveRegCurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveRegCurso</servlet-name>
+		<url-pattern>/saveRegCurso</url-pattern>
+	</servlet-mapping>
+	
+		
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

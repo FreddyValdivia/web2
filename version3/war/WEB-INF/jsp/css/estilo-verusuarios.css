@@ -1,0 +1,93 @@
+body{
+	background-color:#CFC9CB;
+	
+} 
+#cabeza{
+	
+}
+#barra ul{
+	padding:0;
+	list-style:none;
+}
+#opciones > li{
+	display:inline-block;
+}
+
+#opciones >li >a{
+	display:block;
+	padding:10px 5px;
+	width:320px;
+	margin:0 auto;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+}
+li ul{
+	position:absolute;
+}
+#opciones1 > li{
+	display:inline-block;
+}
+
+#opciones1 >li >a{
+	display:block;
+	padding:10px 5px;
+	width:650px;
+	margin:0 auto;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+}
+#barra,li ul{
+	background:#333;
+}
+#opciones li:hover{
+	background:#A3CD39;
+	text-shadow:0 0 2px #000;
+}
+#opciones1 li:hover{
+	background:#A3CD39;
+	text-shadow:0 0 2px #000;
+}
+#cuerpo{
+	wigth:500px;
+	height:400px;
+	color:#3D3C4B;
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+}
+.Table {
+	display: table;
+	clear: left;
+	float: left;
+}
+
+.Title {
+	display: table-caption;
+	text-align: center;
+	font-weight: bold;
+	font-size: larger;
+}
+
+.Heading {
+	display: table-row;
+	font-weight: bold;
+	text-align: center;
+}
+
+.Row {
+	display: table-row;
+}
+
+.Cell {
+	display: table-cell;
+	border: solid;
+	border-width: thin;
+	padding-left: 5px;
+	padding-right: 5px;
+}

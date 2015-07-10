@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+body {
+	background-color: lightSlateGray;
+	padding-top:25px;
+}
+
+#divTicketDocument{
+	width: 800px;
+	background-color: lemonChiffon;
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.Table{
+	width: 750px;
+	background-color: #FFFF66;
+	margin: auto;
+}
+
+.Heading{  
+display: table-row;  
+font-weight: bold;  
+text-align: center;  
+}
+  
+.Row{  
+  display: table-row;  
+}
+  
+.Cell{ 
+	width: 100px;
+  display: table-cell;  
+  border: solid;  
+  border-width: thin;  
+  padding-left: 5px;  
+  padding-right: 5px;  
+}
+
+#divLogo{ 
+	width: 500px;
+  display: table-cell;  
+  border: solid;  
+  border-width: thin;
+}
+
+#divImagen {
+	width: 200px;
+	height: 60px;
+	background-color: yellow;
+	margin: auto;
+}
+#divDireccionEmpresa {
+	width: 500px;
+	background-color: green;
+	padding: 10px;
+}
+#divDatosCliente {
+	width: 500px;
+	background-color: paleGreen;
+	padding: 10px;
+}
+
+#divTicket{ 
+	width: 250px;
+	background-color: lavender;
+  display: table-cell;  
+  border: solid;  
+  border-width: thin;  
+  padding-left: 5px;  
+  padding-right: 5px;  
+}
+
+#DivDescripcion{ 
+	width: 450px;
+  display: table-cell;  
+  border: solid;  
+  border-width: thin;  
+  padding-left: 5px;  
+  padding-right: 5px;  
+}
