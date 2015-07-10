@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+body {
+	background-color:#1E2E4A;
+	padding-left: 11em;
+	font: 15px 'trebuchet MS', 'lucida sans';
+	color: white;
+}
+input[type=submit], input[type=reset] {
+	background-color: #D9D9E8;
+	color: black;
+	border: none;
+	width: 110px;
+	height: 33px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+fieldset {
+	border: 2px solid #595B5E;
+	clear: left;
+	float: left;
+}
+legend {
+	border: 4px solid #0D0F10;
+	background-color: #0D0F10;
+	color: white;
+}
+div#formulario {
+	background-color: #737C8C;
+	padding: 10px;
+	clear: left;
+	float: left;
+}
+div.fila {
+	padding: 5px;
+	clear: left;
+	float: left;
+	margin: 5px;
+}
+div.etiqueta {
+	clear: left;
+	float: left;
+	width: 200px;
+	color: #EFF2F7;
+}
+
+div.control {
+	float: left;
+}
+
+div#action {
+	float: left;
+	margin-left: 200px;
+}
+
+
