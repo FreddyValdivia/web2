@@ -1,0 +1,88 @@
+body{
+	margin:0px;
+	font-size:20px;
+	text-align:center;
+	background-color:#CFC9CB;
+	color:#464242;
+}
+
+#barra ul{
+	padding:0px;
+	list-style:none;
+}
+#opciones > li{
+	display:inline-block;
+}
+#opciones >li >a{
+	display:block;
+	padding:10px 5px;
+	width:310px;
+}
+li ul{
+	position:absolute;
+	display:none;
+}
+.sub-opciones a{
+	display:block;
+	padding:10px 5px;
+	width:310px;
+}
+li:hover ul{
+	display:block;
+}
+#barra, li ul{
+	background: #333;
+}
+#opciones{
+	width:1325px;
+	margin:0px;
+}
+#opciones a{
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+#opciones li:hover{
+	background:#a3cd39;
+	text-shadow:0px 0px 2px #000;
+}
+#cuerpo{
+	wigth:500px;
+	height:400px;
+	color:#3D3C4B;
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+}
+.Table {
+	margin-top:100px;
+	display: table;
+	clear: left;
+	float: left;
+	margin-left:50px;
+}
+
+.Title {
+	display: table-caption;
+	text-align: center;
+	font-weight: bold;
+	font-size: larger;
+}
+
+.Heading {
+	display: table-row;
+	font-weight: bold;
+	text-align: center;
+}
+
+.Row {
+	display: table-row;
+}
+
+.Cell {
+	display: table-cell;
+	border: solid;
+	border-width: thin;
+	padding-left: 5px;
+	padding-right: 5px;
+}
